@@ -1,0 +1,41 @@
+.navbar-nav li{
+    padding-right: 50px;
+    font-weight: 650;
+    font-size: 18px;
+}
+
+body{
+    background-image: url("/images/bg-2.png");
+    background-repeat:no-repeat;
+    background-position: -3% 110%;
+}
+
+.carousel-inner{
+    background-image: url(/images/bg-1.png);
+    background-size: 4%;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position: 43% 50%;
+}
+.buy-now-button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 9px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 30px;
+    border: none;
+    cursor:pointer;
+}
+.slider-items div{
+    padding:1px 40px;
+}
+.slider-items div p{
+    padding-right: 40px;
+}
+.carousel-indicators .active {
+    
+    background-color: orangered;
+}
+
