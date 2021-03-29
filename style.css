@@ -4,18 +4,24 @@
     font-size: 18px;
 }
 
-body{
-    background-image: url("/images/bg-2.png");
-    background-repeat:no-repeat;
-    background-position: -3% 110%;
-}
 
+.dot {
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 8%;
+}
 .carousel-inner{
-    background-image: url(/images/bg-1.png);
+    background-image: url(images/bg-1.png);
     background-size: 4%;
     background-repeat:no-repeat;
     background-position: center;
     background-position: 43% 50%;
+}
+
+.carousel-indicators .active {
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+    width: 45px;
 }
 .buy-now-button{
     background-color: black;
@@ -55,8 +61,11 @@ body{
     text-align: center;
 }
 .card-img-top{
-    width: 380px;
-    padding: 40px 20px 10px 20px;
+    padding-top: 30px;
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 .card-title{
     font-weight: 600;
