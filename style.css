@@ -24,9 +24,10 @@ body{
     padding: 9px 30px;
     border-radius: 10px;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 0px;
     border: none;
     cursor:pointer;
+    margin-bottom: 20px;
 }
 .slider-items div{
     padding:1px 40px;
@@ -38,4 +39,37 @@ body{
     
     background-color: orangered;
 }
-
+.see-all{
+    color: #FF9D00;
+    text-decoration: none;
+}
+.card-group{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1.5rem;
+}
+.card{
+    border:none;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+.card-img-top{
+    width: 380px;
+    padding: 40px 20px 10px 20px;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 24px;
+}
+.card-text{
+    padding: 0px 45px;
+    color: #707070;
+    font-size:16px;
+}
+.card-price{
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
